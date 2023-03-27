@@ -13,8 +13,7 @@ The server component calculates the FRE offset and the FRE offset, percentage of
 
 The calculations performed by the server component of the app are shown below, and follow the procedure outlined in previous other studies, where human-herbivore pair dates procedure had been applied (Cook et al. 2001; Cook et al. 2002; Schulting et al. 2014; Schulting et al. 2015).
 In the present app the Nitrogen 15 stable isotope values are used to derive the correction, following research cited above, because in low protein diets the Carbon 13 stable isotope in collagen may be related to both the sources of protein in the diet and because of carbon contributions from carbohydrates and lipids in the diet. When this is the case, a linear mixing model between the  d13C in bone collagen in the consumer end and in the different components of their diet may not be used (Ambrose and Norr 1993; Cook et al. 2001; Cook et al. 2002).
-
-However, the code is available to the users to customize and include the 13C stable isotope values, according to the formulas provided, based upon the context and the research questions that the user needs to answer to.
+However, as the code is free and available for the users to customize, stable isotope values, such as Carbon 13 and/or Sulfur 34 can be included, according to the formulas provided here and in the literature, to suit to the users respective contexts and research questions.
 
 The offset method for correcting the Freshwater Reservoir Effect (FRE) in radiocarbon dates involves using paired human and herbivore samples to estimate the contribution of freshwater carbon to the human diet. This allows for the calculation of a correction factor to adjust the human radiocarbon date. Here is the procedure:
 
