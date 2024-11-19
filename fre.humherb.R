@@ -91,7 +91,7 @@ server <- function(input, output, session) {
                     max(results$Corrected_14C + 2 * results$Corrected_14C_SD)),
            pch = 19, cex = 2, col = "red")
       
-      # Add error bars
+      # Add error bars.
       segments(x0 = 1:length(results$Corrected_14C),
                y0 = results$Corrected_14C - results$Corrected_14C_SD,
                x1 = 1:length(results$Corrected_14C),
