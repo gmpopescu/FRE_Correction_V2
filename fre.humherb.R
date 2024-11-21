@@ -1,11 +1,11 @@
 # This code defines a shiny app with a UI and server component.
-# This app's purpose is to help user correct the freshwater reservoir effect of radiocarbon dates, 
+# This app is purpose is to help user to correct the freshwater reservoir effect of radiocarbon dates, 
 # when paired human-herbivore sample based dates, from the same archaeological context, (same burial,
 # house, supply pit, hearth or other dwelling structures), are securely connected.
 # The UI component contains input widgets for the variables that the user must upload (see the code
 # below and read the readme file for more details).
-# The server component calculates the FRE offset and the FRE offset, percentage of aquatic diet, and 
-# the corrected 14C date and standard deviation, and generates the output plot and table output. 
+# The server component calculates the FRE offset and the FRE offset standard deviation, the percentage of aquatic diet, and 
+# the corrected 14C date and its standard deviation, and generates the output plot and table output. 
 # To run the app, save the code as a .R file and run it in RStudio or any R environment that supports
 # Shiny applications.
 
