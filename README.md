@@ -3,7 +3,7 @@ Shiny app for the correction of freshwater reservoir effect when pairs of human 
 
 The freshwater reservoir correction procedure is sometimes necessary because the radiocarbon dating of samples from aquatic environments, such as freshwater systems, can sometimes yield inaccurately old ages. This is due to the "reservoir effect," which occurs when old carbon from the surrounding water is incorporated into the organism's tissues, leading to a discrepancy between the radiocarbon age and the actual calendar age (Bronk-Ramsey et al. 2014; Cook et al. 2001; Cook et al. 2002; Lanting and Van Der Plicht 1998; Philippsen 2013). 
 
-The "offset" method is used to estimate the reservoir effect and correct the radiocarbon age.In this case, you have provided the radiocarbon dates for both a human and an herbivore, as well as their respective δ15N values. The δ15N value is a measure of the nitrogen isotopic composition and is used to estimate the proportion of aquatic resources in the diet. A higher δ15N value generally indicates a higher proportion of aquatic resources in the diet (see details in Cook et al. 2002; Bronk-Ramsey et al. 2014; Schulting et al. 2014; Schulting et al. 2015; Weber et al. 2016).
+The "offset" method is used to estimate the reservoir effect and correct the radiocarbon age. In this case, one has to provide the radiocarbon dates for obtained from both the human and the herbivore samples, as well as, their respective δ13C and δ15N values. The δ15N value is a measure of the nitrogen isotopic composition and is used to estimate the proportion of aquatic resources in the diet. A higher δ15N value generally indicates a higher proportion of aquatic resources in the diet (see details in Cook et al. 2002; Bronk-Ramsey et al. 2014; Schulting et al. 2014; Schulting et al. 2015; Weber et al. 2016).
 
 The code provided here defines a shiny app with a UI and server component.
 This app's variant purpose is to help user correct the freshwater reservoir effect of radiocarbon dates, when paired human-herbivore sample-based dates, from the same archaeological context (same burial, house, supply pit, hearth, or other dwelling structures), are securely connected.
@@ -59,4 +59,3 @@ Schulting RJ, Ramsey CB, Bazaliiskii VI, Goriunova OI, Weber A. 2014. Freshwater
 Schulting RJ, Ramsey CB, Bazaliiskii VI, Weber A. 2015. Highly Variable Freshwater Reservoir Offsets Found along the Upper Lena Watershed, Cis-Baikal, Southeast Siberia. Radiocarbon. 57(4):581–593. 
 
 Weber AW, Schulting RJ, Ramsey CB, Bazaliiskii VI, Goriunova OI, Natal’ia EB. 2016. Chronology of middle Holocene hunter–gatherers in the Cis-Baikal region of Siberia: Corrections based on examination of the freshwater reservoir effect. Quaternary International. 419:74–98.
-
